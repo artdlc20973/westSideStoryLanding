@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Monserrat', sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://i.ibb.co/tKm4Hjx/wss.png')no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #ffe600;
+  padding: 1.2em;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  display: flex;
+  text-decoration: none;
+  padding: 1.2em;
+  color: #ffe600;
+  letter-spacing: 1px;
+}
+
+.nav li a:hover {
+  color: #ff4f4f;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+}
+
+h1 {
+  color: #ffe600;
+  margin-bottom: .2em;
+  padding-bottom: .4em;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+p {
+  color: #ff4f4f;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-size: 1.1em;
+  padding-bottom: 1.2em;
+}
+
+button {
+  background: #ffe60054;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 12px 45px;
+  border: none;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4f4f54;
+  border-radius: 25px;
+  transform: translateY(10px);
+}
